@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column
+}
+table{
+    width: 100%;
+}
+th{
+    background: #10101038;
+}
+button{
+    background:green;
+    padding: 12px;
+    color:#fff;
+    border-radius:5px;
+}
+form{
+    background:#10101014;
+    padding:28px;
+    margin-top:35px;
+}
+.overlay_background{
+    height: 100%;
+    width:100%;
+    z-index:1;
+    display:none ;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#10101067;
+
+}
+.cardDetailed{
+    display:none;
+    padding:25px;
+    height:150px;
+    width:180px;
+    border-radius: 6px;
+    border: 1px solid black;
+    flex-direction: column;
+    position: fixed; 
+    background-color: #ececec;
+    top :50%;
+    left :50%;
+    z-index :2;
+    transform: translate(-50%,-50%);
+
+}
+.Span{
+    /* display: flex; */
+    color:red;
+}
